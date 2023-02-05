@@ -18,7 +18,7 @@ const StartGameSection = {
       !window.location.href.includes('game')
     );
   },
-  scribeListeners() {
+  subscribeListeners() {
     this.listenerFormSubmit();
   },
   listenerFormSubmit() {
