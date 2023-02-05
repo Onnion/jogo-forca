@@ -1,0 +1,15 @@
+# Application
+.env
+.DS_Store
+src/dist
+node_modules
+
+# Tests
+/__tests__
+
+# IDE
+.vscode
+.idea
+
+# Local History for Visual Studio Code
+.history/

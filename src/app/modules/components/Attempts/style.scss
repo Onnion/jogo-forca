@@ -1,0 +1,16 @@
+.attempts {
+  display: flex;
+  gap: 5px;
+
+  h1 {
+    text-transform: uppercase;
+
+    &.success {
+      color: green;
+    }
+
+    &.error {
+      color: red;
+    }
+  }
+}

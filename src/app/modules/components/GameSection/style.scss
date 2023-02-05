@@ -1,0 +1,35 @@
+.gamesection {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+
+  #game-inputs {
+    display: flex;
+    gap: 10px;
+  }
+
+  input {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    text-align: center;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 600;
+
+    &.input--success {
+      border-color: green;
+    }
+
+    &.input--error {
+      border-color: red;
+    }
+
+    #game-word-input {
+
+    }
+  }
+}
