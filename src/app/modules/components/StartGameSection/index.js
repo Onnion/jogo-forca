@@ -28,6 +28,10 @@ const StartGameSection = {
       const formData = new FormData(e.target);
       const data = Object.fromEntries(formData);
 
+      if (!data.word) {
+        return;
+      }
+
       this.emitStartGame(data);
     }).bind(this);
 
